@@ -15,7 +15,6 @@ public class MSS_Brute_force {
                     System.out.print(arr[k]+" ");
                     currSum += arr[k];
                 }
-                System.out.println("");
                 System.out.println("Sum is :"+ currSum);
                 if(maxSum < currSum){
                     maxSum = currSum;
